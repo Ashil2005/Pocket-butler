@@ -96,8 +96,6 @@ class MainActivity : FlutterActivity() {
     }
     
     private fun handleShutdownAttempt(triggerType: String) {
-        // This will be called when shutdown/screen off is detected while armed
-        // The Flutter side will handle the actual alarm triggering
         android.util.Log.w("SHUTDOWN_PROTECTION", "Shutdown attempt detected: $triggerType")
     }
 
@@ -110,11 +108,9 @@ class MainActivity : FlutterActivity() {
 
         var connected = false
 
-        // Check A2DP profile connection state
         try {
-            val a2dpState = adapter.getProfileConnectionState(android.bluetooth.BluetoothProfile.A2DP)
-            if (a2dpState == android.bluetooth.BluetoothProfile.STATE_CONNECTED) {
-                // Additional check: verify our specific device is connected
+            val a2dpState = adapter.getProfileConnectionState(BluetoothProfile.A2DP)
+            if (a2dpState == BluetoothProfile.STATE_CONNECTED) {
                 val bondedDevices = adapter.bondedDevices
                 val targetDevice = bondedDevices?.find { 
                     it.address.equals(deviceMac, ignoreCase = true) 
@@ -123,15 +119,11 @@ class MainActivity : FlutterActivity() {
                     connected = true
                 }
             }
-        } catch (e: Exception) {
-            // A2DP check failed
-        }
+        } catch (e: Exception) {}
 
-        // Check HEADSET profile connection state
         try {
-            val headsetState = adapter.getProfileConnectionState(android.bluetooth.BluetoothProfile.HEADSET)
-            if (headsetState == android.bluetooth.BluetoothProfile.STATE_CONNECTED) {
-                // Additional check: verify our specific device is connected
+            val headsetState = adapter.getProfileConnectionState(BluetoothProfile.HEADSET)
+            if (headsetState == BluetoothProfile.STATE_CONNECTED) {
                 val bondedDevices = adapter.bondedDevices
                 val targetDevice = bondedDevices?.find { 
                     it.address.equals(deviceMac, ignoreCase = true) 
@@ -140,9 +132,7 @@ class MainActivity : FlutterActivity() {
                     connected = true
                 }
             }
-        } catch (e: Exception) {
-            // HEADSET check failed
-        }
+        } catch (e: Exception) {}
 
         return connected
     }

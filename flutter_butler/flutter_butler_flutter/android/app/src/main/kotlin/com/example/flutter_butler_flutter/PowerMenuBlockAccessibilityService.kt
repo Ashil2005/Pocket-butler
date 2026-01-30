@@ -6,6 +6,7 @@ import android.util.Log
 import android.os.Handler
 import android.os.Looper
 import android.os.SystemClock
+import kotlin.jvm.Volatile
 
 class PowerMenuBlockAccessibilityService : AccessibilityService() {
     
@@ -13,10 +14,10 @@ class PowerMenuBlockAccessibilityService : AccessibilityService() {
         private const val TAG = "POWER_BLOCK"
         
         @Volatile
-        private var isArmed = false
+        private var armedStateInternal = false
         
         fun setArmed(context: android.content.Context, armed: Boolean) {
-            isArmed = armed
+            armedStateInternal = armed
             Log.w(TAG, "ARMED STATE UPDATED: $armed")
             
             // Persist state for service restarts
@@ -36,12 +37,12 @@ class PowerMenuBlockAccessibilityService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent) {
         // Broad sync for armed state
         val armedNow = isArmed(this)
-        if (isArmed != armedNow) {
-            isArmed = armedNow
-            Log.w(TAG, "Dynamic Armed Check: $isArmed")
+        if (armedStateInternal != armedNow) {
+            armedStateInternal = armedNow
+            Log.w(TAG, "Dynamic Armed Check: $armedStateInternal")
         }
         
-        if (!isArmed) return
+        if (!armedStateInternal) return
 
         val eventType = event.eventType
         val packageName = event.packageName?.toString() ?: ""
@@ -84,7 +85,7 @@ class PowerMenuBlockAccessibilityService : AccessibilityService() {
         
         val runnable = object : Runnable {
             override fun run() {
-                if (!isArmed || !isDetectionRunning) return
+                if (!armedStateInternal || !isDetectionRunning) return
                 
                 // Industrial speed (50ms) to beat the refresh rate of the power menu
                 performGlobalAction(GLOBAL_ACTION_BACK)
@@ -107,21 +108,21 @@ class PowerMenuBlockAccessibilityService : AccessibilityService() {
         super.onServiceConnected()
         
         val info = android.accessibilityservice.AccessibilityServiceInfo().apply {
-            eventType = AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED or 
+            eventTypes = AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED or 
                         AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED or
                         AccessibilityEvent.TYPE_WINDOWS_CHANGED
             
             feedbackType = android.accessibilityservice.AccessibilityServiceInfo.FEEDBACK_GENERIC
             notificationTimeout = 0
-            flags = android.accessibilityservice.AccessibilityServiceInfo.FLAG_RETRIEVE_INTERACTIVE_WINDOWS or
-                    android.accessibilityservice.AccessibilityServiceInfo.FLAG_INCLUDE_NOT_FOCUSED_WINDOWS or
-                    android.accessibilityservice.AccessibilityServiceInfo.FLAG_REPORT_VIEW_IDS
+            flags = 32 or // FLAG_RETRIEVE_INTERACTIVE_WINDOWS
+                    2 or  // FLAG_INCLUDE_NOT_FOCUSED_WINDOWS
+                    16    // FLAG_REPORT_VIEW_IDS
         }
         this.serviceInfo = info
         
         // Initial sync
-        isArmed = isArmed(this)
-        Log.e(TAG, "MANDATORY PROOF: PowerMenuBlockAccessibilityService connected (isArmed=$isArmed)")
+        armedStateInternal = isArmed(this)
+        Log.e(TAG, "MANDATORY PROOF: PowerMenuBlockAccessibilityService connected (isArmed=$armedStateInternal)")
 
         // Verification handle
         val filter = android.content.IntentFilter()
@@ -137,8 +138,9 @@ class PowerMenuBlockAccessibilityService : AccessibilityService() {
             }
         }
         
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-            registerReceiver(receiver, filter, android.content.Context.RECEIVER_EXPORTED)
+        if (android.os.Build.VERSION.SDK_INT >= 33) { // TIRAMISU
+            // Use 2 (RECEIVER_EXPORTED) to avoid unresolved reference on older SDKs
+            registerReceiver(receiver, filter, 2) 
         } else {
             registerReceiver(receiver, filter)
         }
