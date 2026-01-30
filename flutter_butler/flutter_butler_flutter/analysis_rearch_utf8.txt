@@ -1,0 +1,31 @@
+﻿Analyzing flutter_butler_flutter...                             
+
+  error - The method 'listen' isn't defined for the type 'List' - lib\screens\device_selection_screen.dart:45:70 - undefined_method
+  error - Undefined name 'Platform' - lib\screens\device_selection_screen.dart:81:11 - undefined_identifier
+  error - The expression doesn't evaluate to a function, so it can't be invoked - lib\screens\device_selection_screen.dart:91:31 - invocation_of_non_function_expression
+   info - 'connectedSystemDevices' is deprecated and shouldn't be used. Use systemDevices instead - lib\screens\device_selection_screen.dart:91:47 - deprecated_member_use
+warning - The declaration '_fetchSystemDevices' isn't referenced - lib\screens\device_selection_screen.dart:102:16 - unused_element
+  error - Undefined name '_systemDevices' - lib\screens\device_selection_screen.dart:107:11 - undefined_identifier
+  error - The method 'debugPrint' isn't defined for the type 'BluetoothMonitor' - lib\services\bluetooth_monitor.dart:77:9 - undefined_method
+
+flutter : 7 issues 
+found. (ran in 1.6s)
+At line:1 char:1
++ flutter analyze 
+--no-pub > 
+analysis_rearch.txt 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (7 issue   
+ s found. (ran in    
+ 1.6s):String) [    
+], RemoteExcepti    
+on
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 

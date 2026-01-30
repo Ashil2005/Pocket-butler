@@ -1,0 +1,7 @@
+class: Contact
+table: contact
+fields:
+  userId: int
+  name: String
+  phoneNumber: String
+  isEmergency: bool

@@ -1,0 +1,8 @@
+alert:
+  - createAlert:
+  - resolveAlert:
+greeting:
+  - hello:
+location:
+  - pushLocation:
+  - getLatestLocation:

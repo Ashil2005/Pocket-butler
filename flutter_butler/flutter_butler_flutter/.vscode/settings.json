@@ -1,0 +1,18 @@
+{
+    // Disable Java analysis (already done, keep it)
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.import.gradle.enabled": false,
+    "java.autobuild.enabled": false,
+    // Disable XML validation (THIS is the missing piece)
+    "xml.validation.enabled": false,
+    // Completely exclude Android from Problems panel
+    "problems.exclude": {
+        "**/android/**": true
+    },
+    // Hide generated generated noise
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/.kotlin": true,
+        "**/*.iml": true
+    }
+}

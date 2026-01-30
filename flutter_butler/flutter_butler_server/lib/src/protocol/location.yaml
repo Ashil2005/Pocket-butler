@@ -1,0 +1,7 @@
+class: Location
+table: location
+fields:
+  alertId: int
+  latitude: double
+  longitude: double
+  time: DateTime

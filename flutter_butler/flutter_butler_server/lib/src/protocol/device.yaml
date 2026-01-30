@@ -1,0 +1,8 @@
+class: Device
+table: device
+fields:
+  userId: int
+  deviceName: String
+  deviceAddress: String
+  isTrusted: bool
+  rssiThreshold: int?

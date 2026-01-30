@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CC000000"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- Security Icon -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_lock_lock"
+        android:tint="#FF6B6B"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Warning Title -->
+    <TextView
+        android:id="@+id/overlay_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚠️ SECURITY PROTECTION ACTIVE"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Warning Subtitle -->
+    <TextView
+        android:id="@+id/overlay_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This phone is protected by Butler\nEnter PIN to access power options"
+        android:textSize="16sp"
+        android:textColor="#CCCCCC"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- PIN Input Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#333333"
+        android:padding="24dp"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Security PIN:"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/pin_input"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#555555"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:hint="••••"
+            android:inputType="numberPassword"
+            android:maxLength="10"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/pin_submit"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="UNLOCK"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="#FF6B6B"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <!-- Warning Text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚠️ Power options are blocked until correct PIN is entered"
+        android:textSize="12sp"
+        android:textColor="#FF6B6B"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

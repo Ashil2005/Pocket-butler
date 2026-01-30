@@ -1,0 +1,30 @@
+﻿Running Gradle task 'assembleDebug'...                              3.3s
+flutter : Gradle 
+build failed to 
+produce an .apk 
+file. It's likely 
+that this file was 
+generated under 
+A:\python\Pocket Butl
+er\flutter_butler\flu
+tter_butler_flutter\b
+uild, but the tool 
+couldn't find it.
+At line:1 char:1
++ flutter build apk 
+--debug 2>&1 | 
+Out-File -FilePath 
+build_verificatio ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Gradle    
+ build fa...uldn'    
+t find it.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 

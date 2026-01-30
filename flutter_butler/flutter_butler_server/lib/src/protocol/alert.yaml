@@ -1,0 +1,8 @@
+class: Alert
+table: alert
+fields:
+  userId: int
+  deviceId: int
+  time: DateTime
+  alertType: String
+  isResolved: bool

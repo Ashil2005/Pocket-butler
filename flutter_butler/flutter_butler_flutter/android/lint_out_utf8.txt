@@ -1,0 +1,663 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :audioplayers_android:preBuild UP-TO-DATE
+> Task :audioplayers_android:preDebugBuild UP-TO-DATE
+> Task :audioplayers_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :audioplayers_android:mergeDebugNativeLibs NO-SOURCE
+> Task :audioplayers_android:stripDebugDebugSymbols NO-SOURCE
+> Task :audioplayers_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :audioplayers_android:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :audioplayers_android:generateDebugResValues UP-TO-DATE
+> Task :audioplayers_android:generateDebugResources UP-TO-DATE
+> Task :audioplayers_android:packageDebugResources UP-TO-DATE
+> Task :audioplayers_android:parseDebugLocalResources UP-TO-DATE
+> Task :audioplayers_android:generateDebugRFile UP-TO-DATE
+> Task :audioplayers_android:compileDebugKotlin UP-TO-DATE
+> Task :audioplayers_android:extractDebugAnnotations UP-TO-DATE
+> Task :audioplayers_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :audioplayers_android:mergeDebugShaders UP-TO-DATE
+> Task :audioplayers_android:compileDebugShaders NO-SOURCE
+> Task :audioplayers_android:generateDebugAssets UP-TO-DATE
+> Task :audioplayers_android:mergeDebugAssets UP-TO-DATE
+> Task :audioplayers_android:javaPreCompileDebug UP-TO-DATE
+> Task :audioplayers_android:compileDebugJavaWithJavac NO-SOURCE
+> Task :audioplayers_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :audioplayers_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :audioplayers_android:prepareDebugArtProfile UP-TO-DATE
+> Task :audioplayers_android:prepareLintJarForPublish UP-TO-DATE
+> Task :audioplayers_android:processDebugManifest UP-TO-DATE
+> Task :audioplayers_android:processDebugJavaRes UP-TO-DATE
+> Task :audioplayers_android:mergeDebugJavaResource UP-TO-DATE
+> Task :audioplayers_android:syncDebugLibJars UP-TO-DATE
+> Task :audioplayers_android:writeDebugAarMetadata UP-TO-DATE
+> Task :audioplayers_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :connectivity_plus:preBuild UP-TO-DATE
+> Task :connectivity_plus:preDebugBuild UP-TO-DATE
+> Task :connectivity_plus:mergeDebugJniLibFolders UP-TO-DATE
+> Task :connectivity_plus:mergeDebugNativeLibs NO-SOURCE
+> Task :connectivity_plus:stripDebugDebugSymbols NO-SOURCE
+> Task :connectivity_plus:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :connectivity_plus:generateDebugResValues UP-TO-DATE
+> Task :connectivity_plus:generateDebugResources UP-TO-DATE
+> Task :connectivity_plus:packageDebugResources UP-TO-DATE
+> Task :connectivity_plus:parseDebugLocalResources UP-TO-DATE
+> Task :connectivity_plus:generateDebugRFile UP-TO-DATE
+> Task :connectivity_plus:extractDebugAnnotations UP-TO-DATE
+> Task :connectivity_plus:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :connectivity_plus:mergeDebugShaders UP-TO-DATE
+> Task :connectivity_plus:compileDebugShaders NO-SOURCE
+> Task :connectivity_plus:generateDebugAssets UP-TO-DATE
+> Task :connectivity_plus:mergeDebugAssets UP-TO-DATE
+> Task :connectivity_plus:javaPreCompileDebug UP-TO-DATE
+> Task :connectivity_plus:compileDebugJavaWithJavac UP-TO-DATE
+> Task :connectivity_plus:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :connectivity_plus:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :connectivity_plus:prepareDebugArtProfile UP-TO-DATE
+> Task :connectivity_plus:prepareLintJarForPublish UP-TO-DATE
+> Task :connectivity_plus:processDebugManifest UP-TO-DATE
+> Task :connectivity_plus:processDebugJavaRes NO-SOURCE
+> Task :connectivity_plus:mergeDebugJavaResource UP-TO-DATE
+> Task :connectivity_plus:syncDebugLibJars UP-TO-DATE
+> Task :connectivity_plus:writeDebugAarMetadata UP-TO-DATE
+> Task :connectivity_plus:bundleDebugLocalLintAar UP-TO-DATE
+> Task :flutter_background_service_android:preBuild UP-TO-DATE
+> Task :flutter_background_service_android:preDebugBuild UP-TO-DATE
+> Task :flutter_background_service_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :flutter_background_service_android:mergeDebugNativeLibs NO-SOURCE
+> Task :flutter_background_service_android:stripDebugDebugSymbols NO-SOURCE
+> Task :flutter_background_service_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugResValues UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugResources UP-TO-DATE
+> Task :flutter_background_service_android:packageDebugResources UP-TO-DATE
+> Task :flutter_background_service_android:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugRFile UP-TO-DATE
+> Task :flutter_background_service_android:extractDebugAnnotations UP-TO-DATE
+> Task :flutter_background_service_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :flutter_background_service_android:mergeDebugShaders UP-TO-DATE
+> Task :flutter_background_service_android:compileDebugShaders NO-SOURCE
+> Task :flutter_background_service_android:generateDebugAssets UP-TO-DATE
+> Task :flutter_background_service_android:mergeDebugAssets UP-TO-DATE
+> Task :flutter_background_service_android:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_background_service_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :flutter_background_service_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :flutter_background_service_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :flutter_background_service_android:prepareDebugArtProfile UP-TO-DATE
+> Task :flutter_background_service_android:prepareLintJarForPublish UP-TO-DATE
+> Task :flutter_background_service_android:processDebugManifest UP-TO-DATE
+> Task :flutter_background_service_android:processDebugJavaRes NO-SOURCE
+> Task :flutter_background_service_android:mergeDebugJavaResource UP-TO-DATE
+> Task :flutter_background_service_android:syncDebugLibJars UP-TO-DATE
+> Task :flutter_background_service_android:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_background_service_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :flutter_blue_plus_android:preBuild UP-TO-DATE
+> Task :flutter_blue_plus_android:preDebugBuild UP-TO-DATE
+> Task :flutter_blue_plus_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :flutter_blue_plus_android:mergeDebugNativeLibs NO-SOURCE
+> Task :flutter_blue_plus_android:stripDebugDebugSymbols NO-SOURCE
+> Task :flutter_blue_plus_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugResValues UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugResources UP-TO-DATE
+> Task :flutter_blue_plus_android:packageDebugResources UP-TO-DATE
+> Task :flutter_blue_plus_android:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugRFile UP-TO-DATE
+> Task :flutter_blue_plus_android:extractDebugAnnotations UP-TO-DATE
+> Task :flutter_blue_plus_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:mergeDebugShaders UP-TO-DATE
+> Task :flutter_blue_plus_android:compileDebugShaders NO-SOURCE
+> Task :flutter_blue_plus_android:generateDebugAssets UP-TO-DATE
+> Task :flutter_blue_plus_android:mergeDebugAssets UP-TO-DATE
+> Task :flutter_blue_plus_android:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :flutter_blue_plus_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :flutter_blue_plus_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :flutter_blue_plus_android:prepareDebugArtProfile UP-TO-DATE
+> Task :flutter_blue_plus_android:prepareLintJarForPublish UP-TO-DATE
+> Task :flutter_blue_plus_android:processDebugManifest UP-TO-DATE
+> Task :flutter_blue_plus_android:processDebugJavaRes NO-SOURCE
+> Task :flutter_blue_plus_android:mergeDebugJavaResource UP-TO-DATE
+> Task :flutter_blue_plus_android:syncDebugLibJars UP-TO-DATE
+> Task :flutter_blue_plus_android:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_blue_plus_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :flutter_tts:preBuild UP-TO-DATE
+> Task :flutter_tts:preDebugBuild UP-TO-DATE
+> Task :flutter_tts:mergeDebugJniLibFolders UP-TO-DATE
+> Task :flutter_tts:mergeDebugNativeLibs NO-SOURCE
+> Task :flutter_tts:stripDebugDebugSymbols NO-SOURCE
+> Task :flutter_tts:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :flutter_tts:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :flutter_tts:generateDebugResValues UP-TO-DATE
+> Task :flutter_tts:generateDebugResources UP-TO-DATE
+> Task :flutter_tts:packageDebugResources UP-TO-DATE
+> Task :flutter_tts:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_tts:generateDebugRFile UP-TO-DATE
+> Task :flutter_tts:compileDebugKotlin UP-TO-DATE
+> Task :flutter_tts:extractDebugAnnotations UP-TO-DATE
+> Task :flutter_tts:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :flutter_tts:mergeDebugShaders UP-TO-DATE
+> Task :flutter_tts:compileDebugShaders NO-SOURCE
+> Task :flutter_tts:generateDebugAssets UP-TO-DATE
+> Task :flutter_tts:mergeDebugAssets UP-TO-DATE
+> Task :flutter_tts:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_tts:compileDebugJavaWithJavac NO-SOURCE
+> Task :flutter_tts:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :flutter_tts:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :flutter_tts:prepareDebugArtProfile UP-TO-DATE
+> Task :flutter_tts:prepareLintJarForPublish UP-TO-DATE
+> Task :flutter_tts:processDebugManifest UP-TO-DATE
+> Task :flutter_tts:processDebugJavaRes UP-TO-DATE
+> Task :flutter_tts:mergeDebugJavaResource UP-TO-DATE
+> Task :flutter_tts:syncDebugLibJars UP-TO-DATE
+> Task :flutter_tts:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_tts:bundleDebugLocalLintAar UP-TO-DATE
+> Task :geolocator_android:preBuild UP-TO-DATE
+> Task :geolocator_android:preDebugBuild UP-TO-DATE
+> Task :geolocator_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :geolocator_android:mergeDebugNativeLibs NO-SOURCE
+> Task :geolocator_android:stripDebugDebugSymbols NO-SOURCE
+> Task :geolocator_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :geolocator_android:generateDebugResValues UP-TO-DATE
+> Task :geolocator_android:generateDebugResources UP-TO-DATE
+> Task :geolocator_android:packageDebugResources UP-TO-DATE
+> Task :geolocator_android:parseDebugLocalResources UP-TO-DATE
+> Task :geolocator_android:generateDebugRFile UP-TO-DATE
+> Task :geolocator_android:extractDebugAnnotations UP-TO-DATE
+> Task :geolocator_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :geolocator_android:mergeDebugShaders UP-TO-DATE
+> Task :geolocator_android:compileDebugShaders NO-SOURCE
+> Task :geolocator_android:generateDebugAssets UP-TO-DATE
+> Task :geolocator_android:mergeDebugAssets UP-TO-DATE
+> Task :geolocator_android:javaPreCompileDebug UP-TO-DATE
+> Task :geolocator_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :geolocator_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :geolocator_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :geolocator_android:prepareDebugArtProfile UP-TO-DATE
+> Task :geolocator_android:prepareLintJarForPublish UP-TO-DATE
+> Task :geolocator_android:processDebugManifest UP-TO-DATE
+> Task :geolocator_android:processDebugJavaRes NO-SOURCE
+> Task :geolocator_android:mergeDebugJavaResource UP-TO-DATE
+> Task :geolocator_android:syncDebugLibJars UP-TO-DATE
+> Task :geolocator_android:writeDebugAarMetadata UP-TO-DATE
+> Task :geolocator_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preDebugBuild UP-TO-DATE
+> Task :path_provider_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :path_provider_android:mergeDebugNativeLibs NO-SOURCE
+> Task :path_provider_android:stripDebugDebugSymbols NO-SOURCE
+> Task :path_provider_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :path_provider_android:generateDebugResValues UP-TO-DATE
+> Task :path_provider_android:generateDebugResources UP-TO-DATE
+> Task :path_provider_android:packageDebugResources UP-TO-DATE
+> Task :path_provider_android:parseDebugLocalResources UP-TO-DATE
+> Task :path_provider_android:generateDebugRFile UP-TO-DATE
+> Task :path_provider_android:extractDebugAnnotations UP-TO-DATE
+> Task :path_provider_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+> Task :path_provider_android:compileDebugShaders NO-SOURCE
+> Task :path_provider_android:generateDebugAssets UP-TO-DATE
+> Task :path_provider_android:mergeDebugAssets UP-TO-DATE
+> Task :path_provider_android:javaPreCompileDebug UP-TO-DATE
+> Task :path_provider_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :path_provider_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :path_provider_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :path_provider_android:prepareDebugArtProfile UP-TO-DATE
+> Task :path_provider_android:prepareLintJarForPublish UP-TO-DATE
+> Task :path_provider_android:processDebugManifest UP-TO-DATE
+> Task :path_provider_android:processDebugJavaRes NO-SOURCE
+> Task :path_provider_android:mergeDebugJavaResource UP-TO-DATE
+> Task :path_provider_android:syncDebugLibJars UP-TO-DATE
+> Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+> Task :path_provider_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :permission_handler_android:preBuild UP-TO-DATE
+> Task :permission_handler_android:preDebugBuild UP-TO-DATE
+> Task :permission_handler_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :permission_handler_android:mergeDebugNativeLibs NO-SOURCE
+> Task :permission_handler_android:stripDebugDebugSymbols NO-SOURCE
+> Task :permission_handler_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :permission_handler_android:generateDebugResValues UP-TO-DATE
+> Task :permission_handler_android:generateDebugResources UP-TO-DATE
+> Task :permission_handler_android:packageDebugResources UP-TO-DATE
+> Task :permission_handler_android:parseDebugLocalResources UP-TO-DATE
+> Task :permission_handler_android:generateDebugRFile UP-TO-DATE
+> Task :permission_handler_android:extractDebugAnnotations UP-TO-DATE
+> Task :permission_handler_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :permission_handler_android:mergeDebugShaders UP-TO-DATE
+> Task :permission_handler_android:compileDebugShaders NO-SOURCE
+> Task :permission_handler_android:generateDebugAssets UP-TO-DATE
+> Task :permission_handler_android:mergeDebugAssets UP-TO-DATE
+> Task :permission_handler_android:javaPreCompileDebug UP-TO-DATE
+> Task :permission_handler_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :permission_handler_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :permission_handler_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :permission_handler_android:prepareDebugArtProfile UP-TO-DATE
+> Task :permission_handler_android:prepareLintJarForPublish UP-TO-DATE
+> Task :permission_handler_android:processDebugManifest UP-TO-DATE
+> Task :permission_handler_android:processDebugJavaRes NO-SOURCE
+> Task :permission_handler_android:mergeDebugJavaResource UP-TO-DATE
+> Task :permission_handler_android:syncDebugLibJars UP-TO-DATE
+> Task :permission_handler_android:writeDebugAarMetadata UP-TO-DATE
+> Task :permission_handler_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :telephony:preBuild UP-TO-DATE
+> Task :telephony:preDebugBuild UP-TO-DATE
+> Task :telephony:mergeDebugJniLibFolders UP-TO-DATE
+> Task :telephony:mergeDebugNativeLibs NO-SOURCE
+> Task :telephony:stripDebugDebugSymbols NO-SOURCE
+> Task :telephony:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :telephony:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :telephony:generateDebugResValues UP-TO-DATE
+> Task :telephony:generateDebugResources UP-TO-DATE
+> Task :telephony:packageDebugResources UP-TO-DATE
+> Task :telephony:parseDebugLocalResources UP-TO-DATE
+> Task :telephony:generateDebugRFile UP-TO-DATE
+> Task :telephony:compileDebugKotlin UP-TO-DATE
+> Task :telephony:extractDebugAnnotations UP-TO-DATE
+> Task :telephony:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :telephony:mergeDebugShaders UP-TO-DATE
+> Task :telephony:compileDebugShaders NO-SOURCE
+> Task :telephony:generateDebugAssets UP-TO-DATE
+> Task :telephony:mergeDebugAssets UP-TO-DATE
+> Task :telephony:javaPreCompileDebug UP-TO-DATE
+> Task :telephony:compileDebugJavaWithJavac NO-SOURCE
+> Task :telephony:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :telephony:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :telephony:prepareDebugArtProfile UP-TO-DATE
+> Task :telephony:prepareLintJarForPublish UP-TO-DATE
+> Task :telephony:processDebugManifest UP-TO-DATE
+> Task :telephony:processDebugJavaRes UP-TO-DATE
+> Task :telephony:mergeDebugJavaResource UP-TO-DATE
+> Task :telephony:syncDebugLibJars UP-TO-DATE
+> Task :telephony:writeDebugAarMetadata UP-TO-DATE
+> Task :telephony:bundleDebugLocalLintAar UP-TO-DATE
+> Task :url_launcher_android:preBuild UP-TO-DATE
+> Task :url_launcher_android:preDebugBuild UP-TO-DATE
+> Task :url_launcher_android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :url_launcher_android:mergeDebugNativeLibs NO-SOURCE
+> Task :url_launcher_android:stripDebugDebugSymbols NO-SOURCE
+> Task :url_launcher_android:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :url_launcher_android:generateDebugBuildConfig UP-TO-DATE
+> Task :url_launcher_android:generateDebugResValues UP-TO-DATE
+> Task :url_launcher_android:generateDebugResources UP-TO-DATE
+> Task :url_launcher_android:packageDebugResources UP-TO-DATE
+> Task :url_launcher_android:parseDebugLocalResources UP-TO-DATE
+> Task :url_launcher_android:generateDebugRFile UP-TO-DATE
+> Task :url_launcher_android:extractDebugAnnotations UP-TO-DATE
+> Task :url_launcher_android:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :url_launcher_android:mergeDebugShaders UP-TO-DATE
+> Task :url_launcher_android:compileDebugShaders NO-SOURCE
+> Task :url_launcher_android:generateDebugAssets UP-TO-DATE
+> Task :url_launcher_android:mergeDebugAssets UP-TO-DATE
+> Task :url_launcher_android:javaPreCompileDebug UP-TO-DATE
+> Task :url_launcher_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :url_launcher_android:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :url_launcher_android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :url_launcher_android:prepareDebugArtProfile UP-TO-DATE
+> Task :url_launcher_android:prepareLintJarForPublish UP-TO-DATE
+> Task :url_launcher_android:processDebugManifest UP-TO-DATE
+> Task :url_launcher_android:processDebugJavaRes NO-SOURCE
+> Task :url_launcher_android:mergeDebugJavaResource UP-TO-DATE
+> Task :url_launcher_android:syncDebugLibJars UP-TO-DATE
+> Task :url_launcher_android:writeDebugAarMetadata UP-TO-DATE
+> Task :url_launcher_android:bundleDebugLocalLintAar UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileFlutterBuildDebug UP-TO-DATE
+> Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:copyFlutterAssetsDebug
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :audioplayers_android:extractDeepLinksDebug UP-TO-DATE
+> Task :connectivity_plus:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_background_service_android:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_tts:extractDeepLinksDebug UP-TO-DATE
+> Task :geolocator_android:extractDeepLinksDebug UP-TO-DATE
+> Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+> Task :permission_handler_android:extractDeepLinksDebug UP-TO-DATE
+> Task :telephony:extractDeepLinksDebug UP-TO-DATE
+> Task :url_launcher_android:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:outputDebugAppLinkSettings UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :audioplayers_android:compileDebugLibraryResources UP-TO-DATE
+> Task :connectivity_plus:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_background_service_android:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_blue_plus_android:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_tts:compileDebugLibraryResources UP-TO-DATE
+> Task :geolocator_android:compileDebugLibraryResources UP-TO-DATE
+> Task :path_provider_android:compileDebugLibraryResources UP-TO-DATE
+> Task :permission_handler_android:compileDebugLibraryResources UP-TO-DATE
+> Task :telephony:compileDebugLibraryResources UP-TO-DATE
+> Task :url_launcher_android:compileDebugLibraryResources UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :audioplayers_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :connectivity_plus:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :flutter_background_service_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :flutter_tts:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :geolocator_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :path_provider_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :permission_handler_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :telephony:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :url_launcher_android:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :audioplayers_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :audioplayers_android:createFullJarDebug UP-TO-DATE
+> Task :audioplayers_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :connectivity_plus:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :connectivity_plus:createFullJarDebug UP-TO-DATE
+> Task :connectivity_plus:writeDebugLintModelMetadata UP-TO-DATE
+> Task :flutter_background_service_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :flutter_background_service_android:createFullJarDebug UP-TO-DATE
+> Task :flutter_background_service_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :flutter_blue_plus_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:createFullJarDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :flutter_tts:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :flutter_tts:createFullJarDebug UP-TO-DATE
+> Task :flutter_tts:writeDebugLintModelMetadata UP-TO-DATE
+> Task :geolocator_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :geolocator_android:createFullJarDebug UP-TO-DATE
+> Task :geolocator_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :path_provider_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :path_provider_android:createFullJarDebug UP-TO-DATE
+> Task :path_provider_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :permission_handler_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :permission_handler_android:createFullJarDebug UP-TO-DATE
+> Task :permission_handler_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :telephony:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :telephony:createFullJarDebug UP-TO-DATE
+> Task :telephony:writeDebugLintModelMetadata UP-TO-DATE
+> Task :url_launcher_android:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :url_launcher_android:createFullJarDebug UP-TO-DATE
+> Task :url_launcher_android:writeDebugLintModelMetadata UP-TO-DATE
+> Task :app:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :audioplayers_android:extractProguardFiles UP-TO-DATE
+> Task :audioplayers_android:generateDebugLintModel UP-TO-DATE
+> Task :connectivity_plus:extractProguardFiles UP-TO-DATE
+> Task :connectivity_plus:generateDebugLintModel UP-TO-DATE
+> Task :flutter_background_service_android:extractProguardFiles UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugLintModel UP-TO-DATE
+> Task :flutter_blue_plus_android:extractProguardFiles UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugLintModel UP-TO-DATE
+> Task :flutter_tts:extractProguardFiles UP-TO-DATE
+> Task :flutter_tts:generateDebugLintModel UP-TO-DATE
+> Task :geolocator_android:extractProguardFiles UP-TO-DATE
+> Task :geolocator_android:generateDebugLintModel UP-TO-DATE
+> Task :path_provider_android:extractProguardFiles UP-TO-DATE
+> Task :path_provider_android:generateDebugLintModel UP-TO-DATE
+> Task :permission_handler_android:extractProguardFiles UP-TO-DATE
+> Task :permission_handler_android:generateDebugLintModel UP-TO-DATE
+> Task :telephony:extractProguardFiles UP-TO-DATE
+> Task :telephony:generateDebugLintModel UP-TO-DATE
+> Task :url_launcher_android:extractProguardFiles UP-TO-DATE
+> Task :url_launcher_android:generateDebugLintModel UP-TO-DATE
+> Task :app:generateDebugLintReportModel UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :audioplayers_android:lintAnalyzeDebug UP-TO-DATE
+> Task :connectivity_plus:lintAnalyzeDebug UP-TO-DATE
+> Task :flutter_background_service_android:lintAnalyzeDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:lintAnalyzeDebug UP-TO-DATE
+> Task :flutter_tts:lintAnalyzeDebug UP-TO-DATE
+> Task :geolocator_android:lintAnalyzeDebug UP-TO-DATE
+> Task :path_provider_android:lintAnalyzeDebug UP-TO-DATE
+> Task :permission_handler_android:lintAnalyzeDebug UP-TO-DATE
+> Task :telephony:lintAnalyzeDebug UP-TO-DATE
+> Task :url_launcher_android:lintAnalyzeDebug UP-TO-DATE
+> Task :app:lintAnalyzeDebug UP-TO-DATE
+> Task :app:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :app:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :audioplayers_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :audioplayers_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :audioplayers_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :audioplayers_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :audioplayers_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :audioplayers_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :audioplayers_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :connectivity_plus:preDebugAndroidTestBuild UP-TO-DATE
+> Task :connectivity_plus:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :connectivity_plus:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :connectivity_plus:preDebugUnitTestBuild UP-TO-DATE
+> Task :connectivity_plus:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :connectivity_plus:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :connectivity_plus:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :flutter_background_service_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :flutter_background_service_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :flutter_background_service_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :flutter_background_service_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :flutter_background_service_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :flutter_blue_plus_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :flutter_blue_plus_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :flutter_blue_plus_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :flutter_blue_plus_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :flutter_blue_plus_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :flutter_tts:preDebugAndroidTestBuild UP-TO-DATE
+> Task :flutter_tts:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :flutter_tts:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :flutter_tts:preDebugUnitTestBuild UP-TO-DATE
+> Task :flutter_tts:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :flutter_tts:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :flutter_tts:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :geolocator_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :geolocator_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :geolocator_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :geolocator_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :geolocator_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :geolocator_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :geolocator_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :path_provider_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :path_provider_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :path_provider_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :path_provider_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :path_provider_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :path_provider_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :path_provider_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :permission_handler_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :permission_handler_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :permission_handler_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :permission_handler_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :permission_handler_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :permission_handler_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :permission_handler_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :telephony:preDebugAndroidTestBuild UP-TO-DATE
+> Task :telephony:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :telephony:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :telephony:preDebugUnitTestBuild UP-TO-DATE
+> Task :telephony:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :telephony:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :telephony:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :url_launcher_android:preDebugAndroidTestBuild UP-TO-DATE
+> Task :url_launcher_android:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :url_launcher_android:generateDebugAndroidTestLintModel UP-TO-DATE
+> Task :url_launcher_android:preDebugUnitTestBuild UP-TO-DATE
+> Task :url_launcher_android:generateDebugUnitTestLintModel UP-TO-DATE
+> Task :url_launcher_android:lintAnalyzeDebugAndroidTest UP-TO-DATE
+> Task :url_launcher_android:lintAnalyzeDebugUnitTest UP-TO-DATE
+> Task :audioplayers_android:generateDebugLintReportModel UP-TO-DATE
+> Task :audioplayers_android:lintReportDebug UP-TO-DATE
+> Task :audioplayers_android:lintDebug
+> Task :connectivity_plus:generateDebugLintReportModel UP-TO-DATE
+> Task :connectivity_plus:lintReportDebug UP-TO-DATE
+> Task :connectivity_plus:lintDebug
+> Task :flutter_background_service_android:generateDebugLintReportModel UP-TO-DATE
+> Task :flutter_background_service_android:lintReportDebug UP-TO-DATE
+> Task :flutter_background_service_android:lintDebug
+> Task :flutter_blue_plus_android:generateDebugLintReportModel UP-TO-DATE
+> Task :flutter_blue_plus_android:lintReportDebug UP-TO-DATE
+> Task :flutter_blue_plus_android:lintDebug
+> Task :flutter_tts:generateDebugLintReportModel UP-TO-DATE
+> Task :flutter_tts:lintReportDebug UP-TO-DATE
+> Task :flutter_tts:lintDebug
+> Task :geolocator_android:generateDebugLintReportModel UP-TO-DATE
+> Task :geolocator_android:lintReportDebug UP-TO-DATE
+
+> Task :geolocator_android:lintDebug FAILED
+Lint found 2 errors, 19 warnings. First failure:
+
+C:\Users\ashil\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.2\android\src\main\java\com\baseflow\geolocator\location\BackgroundNotification.java:100: Error: Call requires permission which may be rejected by user: code should explicitly check to see if permission is available (with checkPermission) or explicitly handle a potential SecurityException [MissingPermission]
+            notificationManager.notify(notificationId, builder.build());
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The full lint text report is located at:
+  A:\python\Pocket Butler\flutter_butler\flutter_butler_flutter\build\geolocator_android\intermediates\lint_intermediate_text_report\debug\lintReportDebug\lint-results-debug.txt
+
+> Task :app:lintReportDebug
+Wrote HTML report to file:///A:/python/Pocket%20Butler/flutter_butler/flutter_butler_flutter/build/app/reports/lint-results-debug.html
+
+[Incubating] Problems report is available at: file:///A:/python/Pocket%20Butler/flutter_butler/flutter_butler_flutter/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+419 actionable tasks: 10 executed, 409 up-to-date
+.\gradlew : 
+At line:1 char:65
++ ... 
+\Android\Android 
+Studio\jbr'; 
+.\gradlew lintDebug 
+> lint_out.txt 2>&1
++                    
+               ~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':geolocator_and
+roid:lintDebug'.
+> Lint found errors 
+in the project; 
+aborting build.
+  
+  Fix the issues 
+identified by lint, 
+or create a baseline 
+to see only new 
+errors.
+  To create a 
+baseline, run 
+`gradlew 
+updateLintBaseline` 
+after adding the 
+following to the 
+module's 
+build.gradle file:
+  ```
+  android {
+      lint {
+          baseline = 
+file("lint-baseline.x
+ml")
+      }
+  }
+  ```
+  For more details, 
+see https://developer
+.android.com/studio/w
+rite/lint#snapshot
+  
+  Lint found 2 
+errors, 19 warnings. 
+First failure:
+  
+  C:\Users\ashil\AppD
+ata\Local\Pub\Cache\h
+osted\pub.dev\geoloca
+tor_android-4.6.2\and
+roid\src\main\java\co
+m\baseflow\geolocator
+\location\BackgroundN
+otification.java:100:
+ Error: Call 
+requires permission 
+which may be 
+rejected by user: 
+code should 
+explicitly check to 
+see if permission is 
+available (with 
+checkPermission) or 
+explicitly handle a 
+potential 
+SecurityException 
+[MissingPermission]
+              notific
+ationManager.notify(n
+otificationId, 
+builder.build());
+              ~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+  
+  The full lint text 
+report is located at:
+    A:\python\Pocket 
+Butler\flutter_butler
+\flutter_butler_flutt
+er\build\geolocator_a
+ndroid\intermediates\
+lint_intermediate_tex
+t_report\debug\lintRe
+portDebug\lint-result
+s-debug.txt
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 4s
